@@ -1,9 +1,10 @@
 # bingescape_sem5
 This repository is made to accomodate files and facilitate the development of the BINGESCAPE project.
+This application (Bingescape) was built using React (Custom Hooks, Context), Firebase & Styled Components. We have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners. Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well.
 
-![BINGESCAPE Logo 1](https://user-images.githubusercontent.com/56185794/141731868-52f397e9-a59f-45c2-bade-0de0c4c1357a.png)
+![logo_transparent](https://user-images.githubusercontent.com/56185794/142626835-ccc8cfc8-d684-4618-bdeb-b3a888a6553f.png)
 
-As described above, the project aims to provide all the content from all the streaming services and makes them readily available to our customers GLOBALLY, all under a single platform. 
+The Bingescape project aims to provide all the content from all the streaming services and makes them readily available to our customers GLOBALLY, all under a single platform. 
 
 The project aims to greatly reduce the hassle of buying and maintaining several subscriptions, by bundling all the content from different streaming services into one, and thus the customer only needs to buy one subscription to watch it all. 
 
