@@ -1,5 +1,6 @@
 # bingescape_sem5
 This repository is made to accomodate files and facilitate the development of the BINGESCAPE project.
+
 This application (Bingescape) was built using React (Custom Hooks, Context), Firebase & Styled Components. We have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners. Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well.
 
 ![logo_transparent](https://user-images.githubusercontent.com/56185794/142626835-ccc8cfc8-d684-4618-bdeb-b3a888a6553f.png)
