@@ -6,12 +6,12 @@ import 'firebase/auth';
 // import { seedDatabase } from '../seed';
 
 const config = {
-  apiKey: "AIzaSyAPzya4JI61uenf_hTXUMbHpE0Ec-mAjt0",
-  authDomain: "bingescape-8caf5.firebaseapp.com",
-  projectId: "bingescape-8caf5",
-  storageBucket: "bingescape-8caf5.appspot.com",
-  messagingSenderId: "724991744401",
-  appId: "1:724991744401:web:1874d14c16de5d808fa230"
+  apiKey: "AIzaSyD2Y0vcL6IoRFM5km4TUw0USwvhNj4tgIE",
+  authDomain: "bingescape-1198.firebaseapp.com",
+  projectId: "bingescape-1198",
+  storageBucket: "bingescape-1198.appspot.com",
+  messagingSenderId: "1085708734040",
+  appId: "1:1085708734040:web:cde577522c146f15c5c42d"
 };
 
 const firebase = Firebase.initializeApp(config);

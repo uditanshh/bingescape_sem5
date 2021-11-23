@@ -3,6 +3,7 @@ import styled from 'styled-components/macro';
 export const Container = styled.div`
   display: flex;
   border-bottom: 8px solid #222;
+  background-color: #00cccc;
 `;
 
 export const Frame = styled.div`

@@ -2,13 +2,13 @@ import React, { useState, useEffect, useContext } from 'react';
 import Fuse from 'fuse.js';
 import { Card, Header, Loading, Player } from '../components';
 import * as ROUTES from '../constants/routes';
-import logo from '../logo.svg';
+import logo from '../logo.png';
 import { FirebaseContext } from '../context/firebase';
 import { SelectProfileContainer } from './profiles';
 import { FooterContainer } from './footer';
 
 export function BrowseContainer({ slides }) {
-  const [category, setCategory] = useState('series');
+  const [category, setCategory] = useState('Netflix');
   const [profile, setProfile] = useState({});
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
@@ -46,11 +46,14 @@ export function BrowseContainer({ slides }) {
         <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt="Bingescape" />
-            <Header.TextLink active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}>
-              Series
+            <Header.TextLink active={category === 'Netflix' ? 'true' : 'false'} onClick={() => setCategory('Netflix')}>
+            Netflix
             </Header.TextLink>
-            <Header.TextLink active={category === 'films' ? 'true' : 'false'} onClick={() => setCategory('films')}>
-              Films
+            <Header.TextLink active={category === 'Prime' ? 'true' : 'false'} onClick={() => setCategory('Prime')}>
+            Prime
+            </Header.TextLink>
+            <Header.TextLink active={category === 'Hotstar' ? 'true' : 'false'} onClick={() => setCategory('Hotstar')}>
+            Hotstar
             </Header.TextLink>
           </Header.Group>
           <Header.Group>
@@ -88,7 +91,7 @@ export function BrowseContainer({ slides }) {
             <Card.Entities>
               {slideItem.data.map((item) => (
                 <Card.Item key={item.docId} item={item}>
-                  <Card.Image src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
+                  <Card.Image src={`/images/${category}/${item.genre}/small.jpg`} />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
                     <Card.Text>{item.description}</Card.Text>
