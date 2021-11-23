@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Enjoy on your TV.",
-    "subTitle": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+    "title": "Watch on the go.",
+    "subTitle": "Watch on any device, anywhere, anytime.",
     "image": "/images/misc/home-tv.jpg",
     "alt": "Tiger King on Bingescape",
     "direction": "row"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Watch everywhere.",
-    "subTitle": "Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.",
+    "subTitle": "Stream unlimited shows and movies on your phone, tablet, laptop and TV without paying more.",
     "image": "/images/misc/home-imac.jpg",
     "alt": "Money Heist on Bingescape",
     "direction": "row"
