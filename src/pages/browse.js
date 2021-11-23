@@ -4,9 +4,10 @@ import useContent from '../hooks/use-content';
 import selectionFilter  from '../utils/selection-filter';
 
 export default function Browse() {
-  const { series } = useContent('series');
-  const { films } = useContent('films');
-  const slides = selectionFilter({ series, films });
+  const { Netflix } = useContent('Netflix');
+  const { Prime } = useContent('Prime');
+  const { Hotstar } = useContent('Hotstar');
+  const slides = selectionFilter({ Netflix, Prime, Hotstar });
 
   return <BrowseContainer slides={slides} />;
 }

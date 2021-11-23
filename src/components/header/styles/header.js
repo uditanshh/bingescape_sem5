@@ -101,7 +101,7 @@ export const SearchIcon = styled.button`
 
 export const ButtonLink = styled(ReachRouterLink)`
   display: block;
-  background-color: #e50914;
+  background-color: #00b3b3;
   width: 84px;
   height: fit-content;
   color: white;
@@ -113,7 +113,7 @@ export const ButtonLink = styled(ReachRouterLink)`
   text-decoration: none;
 
   &:hover {
-    background: #f40612;
+    background: #00cccc;
   }
 `;
 
@@ -210,14 +210,11 @@ export const Text = styled.p`
 `;
 
 export const Logo = styled.img`
-  height: 36px;
-  width: 134px;
+  height: 100px;
+  width: 240px;
   margin-right: 40px;
+  margin-top: 35px;
 
-  @media (min-width: 1449px) {
-    height: 45px;
-    width: 167px;
-  }
 `;
 
 export const PlayButton = styled.button`
