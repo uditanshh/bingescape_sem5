@@ -10,8 +10,7 @@ export function seedDatabase(firebase) {
     /* eslint-enable */
   }
 
-  /* Hotstar
-    ============================================ */
+  /* Hotstar ============================================ */
   // Family
   firebase.firestore().collection("Hotstar").add({
     id: getUUID(),
@@ -222,8 +221,7 @@ export function seedDatabase(firebase) {
     maturity: "13",
   });
 
-  /* Prime
-    ============================================ */
+  /* Prime ============================================ */
   // Action
   firebase.firestore().collection("Prime").add({
     id: getUUID(),
@@ -436,187 +434,187 @@ export function seedDatabase(firebase) {
     maturity: "16",
   });
 
-  /* Netflix
-    ============================================ */
-  //Action
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-
-  //Adventure
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  //Thriller
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  //Comidies
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
-  firebase.firestore().collection("Netflix").add({
-    id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
-  });
+  /* Netflix ============================================ */
   //Romance
   firebase.firestore().collection("Netflix").add({
     id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
+    title: "Holidate",
+    description: "Fed up with being single on holidays, two strangers agree to be each other's platonic plus-ones all year long, only to catch real feelings along the way.",
+    genre: "romance",
+    maturity: "13",
   });
   firebase.firestore().collection("Netflix").add({
     id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
+    title: "To All The Boys I've Loved Before 2",
+    description: "As her relationship with Peter continues to grow, Lara Jean reunites with another recipient of one of her old love letters.",
+    genre: "romance",
+    maturity: "13",
   });
   firebase.firestore().collection("Netflix").add({
     id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
+    title: "Ginny Weds Sunny",
+    description: "Eager to marry but constantly rejected by women, a bachelor hopes to win over a former crush by accepting help from an unlikely source: her mother.",
+    genre: "romance",
+    maturity: "13",
   });
   firebase.firestore().collection("Netflix").add({
     id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
+    title: "The Kissing Booth",
+    description: "Determined to make the most of her final summer before college, Elle plans the ultimate bucket list as she navigates what comes next with Noah and Lee.",
+    genre: "romance",
+    maturity: "13",
   });
   firebase.firestore().collection("Netflix").add({
     id: getIIID(),
-    title: "",
-    description: "",
-    genre: "",
-    maturity: "",
+    title: "Palm Springs",
+    description: "Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
+    genre: "romance",
+    maturity: "13",
+  });
+
+  //Thriller
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Dhamaka",
+    description: "When a cynical ex-TV news anchor gets an alarming call on his radio show, he sees a chance for a career comeback -- but it may cost him his conscience.",
+    genre: "thriller",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Red Notice",
+    description: "In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.",
+    genre: "thriller",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Haseen Dilruba",
+    description: "A woman suspected of killing her husband narrates an interesting story about her marriage while investigating police officers look for clues to arrest her.",
+    genre: "thriller",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "6 Underground",
+    description: "Six individuals from all around the globe, each the very best at what they do, have been chosen not only for their skill, but for a unique desire to delete their pasts to change the future.",
+    genre: "thriller",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Raat Akeli Hai",
+    description: "When a newly married landlord is murdered, a misfit cop's investigation is complicated by the victim's secretive family.",
+    genre: "thriller",
+    maturity: "13",
+  });
+
+  //Action
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Venom",
+    description: "Eddie Brock is still struggling to coexist with the shape-shifting extraterrestrial Venom. When deranged serial killer Cletus Kasady also becomes host to an alien symbiote, Brock and Venom must put aside their differences to stop his reign of terror.",
+    genre: "action",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Naam Shabana",
+    description: "Jai dies in an altercation with some gangsters, who are teasing Shabana. Later, Shabana gets a call offering help to avenge Jai's death provided that she agrees to join a secret intelligence agency.",
+    genre: "action",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Madras Cafe",
+    description: "Vikram, an Indian intelligence agent who visits Sri Lanka on a secret mission, finds himself embroiled in a civil war and a conspiracy to kill the former prime minister of India.",
+    genre: "action",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Delhi Belly",
+    description: "Tashi, Nitin and Arup, three strugglers who are also roommates, unknowingly become the target of a powerful gangster when they misplace his expensive diamonds.",
+    genre: "action",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Phantom",
+    description: "Daniyal, a disgraced Indian soldier, and Nawaz, who works for an American security agency, face many trials and tribulations while they go on a dangerous mission to kill 26/11 suspects.",
+    genre: "action",
+    maturity: "13",
+  });
+  //Comedy
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Murder Mystery",
+    description: "A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage. A chance encounter leads to them being framed for the murder of an elderly billionaire.",
+    genre: "comedy",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Central Intelligence",
+    description: "Accountant Calvin Joyner's life changes drastically after Bob Stone, his classmate in high school, drags him into a dubious covert operation.",
+    genre: "comedy",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Phir Hera Pheri",
+    description: "The lives of Raju, Shyam and Baburao change completely when they get cheated by a fraudster. Now, they must find another way to repay the loan they took from a dreaded gangster.",
+    genre: "comedy",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Fukrey",
+    description: "Hunny, Choocha, Lali and Zafar want to make easy money and approach the notorious Bholi to invest in their plan. But when they lose her money, they must come up with a plan or face the consequences.",
+    genre: "comedy",
+    maturity: "13",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Welcome",
+    description: "Two thugs meet Rajiv, who belongs to a respectable family, and want to fix their sister's wedding with him. However, when Rajiv's uncle refuses to the match, a series of hilarious situations occur.",
+    genre: "comedy",
+    maturity: "13",
+  });
+  //Family
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "The Secret Life Of Pets 2",
+    description: "At a farm, Max meets the sheepdog Rooster who tries to help him overcome his fears. Back home, Gidget loses Max's favourite toy, while Snowball tries to rescue a white tiger cub, Hu.",
+    genre: "family",
+    maturity: "7",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Hotel transylvania",
+    description: "Count Dracula feels lonely and depressed while running his hotel for monsters. To show him a good time, his family books a luxury vacation cruise exclusively for monsters.",
+    genre: "family",
+    maturity: "7",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "The Lego Movie 2",
+    description: "Five years after saving the world, Emmet sets out to rescue his friends from the mysterious planet Duplon and gets help from newcomer Rick Dangervest.",
+    genre: "family",
+    maturity: "7",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Pokemon Detective Pikachu",
+    description: "After the demise of his father, Tim travels to Ryme city where he runs into his father's Pokemon partner, Pikachu. They team up and try to work on the case left unfinished by Tim's father.",
+    genre: "family",
+    maturity: "7",
+  });
+  firebase.firestore().collection("Netflix").add({
+    id: getIIID(),
+    title: "Vivo",
+    description: "A music-loving kinkajou embarks on the journey of a lifetime to fulfill his destiny and deliver a love song for an old friend.",
+    genre: "family",
+    maturity: "7",
   });
 }
