@@ -156,7 +156,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Hotstar").add({
     id: getUUID(),
-    title: "Maze Runner; The Death Cure",
+    title: "Maze Runner The Death Cure",
     description:
       "When a deadly disease called the Flare breaks out, Thomas and his group of escaped Gladers break into the Last City to find the cure and save their friends.",
     genre: "scifi",
