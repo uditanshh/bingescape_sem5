@@ -45,10 +45,10 @@ yarn start // run it locally
 ## Screenshots of this project
 
 User visit public and Home page
-![User visit public and Home page]()
+![User visit public and Home page](https://github.com/uditpatel2526/bingescape_sem5/blob/main/public/images/home-page.png?raw=true)
 
 User can sign in or sign up
-![User can sign in or sign up]()
+![User can sign in or sign up](https://github.com/uditpatel2526/bingescape_sem5/blob/main/public/images/signin-page.png?raw=true)
 
-After signing in user can Search and Enjoy Movies
-![After signing in user can Search and Enjoy Movies]()
+<!-- After signing in user can Search and Enjoy Movies
+![After signing in user can Search and Enjoy Movies]() -->
