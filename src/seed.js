@@ -249,7 +249,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Prime").add({
     id: getUUID(),
-    title: "Captain America: Civil War",
+    title: "Captain America - Civil War",
     description:
       'The Avengers are forced to "party" with Ultron when he seeks to disassemble the team by taking control of Iron Man armor and enact a nefarious scheme to take over the world.',
     genre: "action",
@@ -318,7 +318,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Prime").add({
     id: getUUID(),
-    title: "Transformers: Revenge of the Fallen",
+    title: "Transformers - Revenge of the Fallen",
     description:
       "The battle for Earth continues when college-bound Sam Witwicky learns the truth about the ancient origins of the Transformers and must join in their continued battle against the Decepticons.",
     genre: "adventure",
@@ -326,7 +326,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Prime").add({
     id: getUUID(),
-    title: "Zombieland: Double Tap",
+    title: "Zombieland - Double Tap",
     description:
       "Through comic mayhem from the White House to the heartland, four slayers face off against new kinds of evolved zombies and new human survivors.",
     genre: "adventure",
@@ -334,7 +334,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Prime").add({
     id: getUUID(),
-    title: "Resident Evil: Apocalypse",
+    title: "Resident Evil - Apocalypse",
     description:
       "After narrowly escaping the horrors of the underground Hive facility, Alice (Milla Jovovich) is quickly thrust back into a war raging above ground between the living and the Undead. As the city is locked down under quarantine, Alice joins a small band of elite soldiers, led by Valentine (Sienna Guillory, Love, Actually) and Carlos.",
     genre: "adventure",
@@ -368,7 +368,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Prime").add({
     id: getUUID(),
-    title: "Jack Ryan: Shadow Recruit",
+    title: "Jack Ryan - Shadow Recruit",
     description:
       "Jack Ryan must quickly evolve from soldier to analyst to full-fledged operative to stop a devastating terrorist plot against the United States.",
     genre: "thriller",
@@ -376,7 +376,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Prime").add({
     id: getUUID(),
-    title: "K.G.F: Chapter 1 ",
+    title: "K.G.F - Chapter 1 ",
     description:
       "KGF Chapter 1 is a film based on the gold mines that represents absolute power. The film is based on power struggle to rule these fields which eventually becomes one manâ€™s destiny and his final destination.",
     genre: "thriller",
