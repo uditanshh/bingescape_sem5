@@ -279,7 +279,7 @@ export function seedDatabase(firebase) {
     title: "Bad Boys II",
     description:
       "The action and comedy never stop when superstars Martin Lawrence and Will Smith reunite as out-of-control trash-talking buddy cops.",
-    genre: "comidies",
+    genre: "comedies",
     maturity: "16",
   });
   firebase.firestore().collection("Prime").add({
@@ -295,7 +295,7 @@ export function seedDatabase(firebase) {
     title: "Welcome",
     description:
       "Two dons want their sister to get married. They find a suitable match, but the grooms uncle wants him to get married to a girl from a decent family. The only way they can get married is, if both the dons give up their life of crime.",
-    genre: "comidies",
+    genre: "comedies",
     maturity: "12",
   });
   firebase.firestore().collection("Prime").add({
@@ -303,7 +303,7 @@ export function seedDatabase(firebase) {
     title: "Hera Pheri",
     description:
       "Three unemployed men find the answer to all their money problems when they recieve a call from a kidnapper. However, things do not go as planned.",
-    genre: "comidies",
+    genre: "comedies",
     maturity: "12",
   });
 
