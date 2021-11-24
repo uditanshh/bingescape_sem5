@@ -50,5 +50,5 @@ User visit public and Home page
 User can sign in or sign up
 ![User can sign in or sign up](https://github.com/uditpatel2526/bingescape_sem5/blob/main/public/images/signin-page.png?raw=true)
 
-<!-- After signing in user can Search and Enjoy Movies
-![After signing in user can Search and Enjoy Movies]() -->
+After signing in user can Search and Enjoy Movies
+![After signing in user can Search and Enjoy Movies](https://github.com/uditpatel2526/bingescape_sem5/blob/main/public/images/browse-page.png?raw=true)
