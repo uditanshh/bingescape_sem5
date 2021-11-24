@@ -56,7 +56,7 @@ export function seedDatabase(firebase) {
   //Action
   firebase.firestore().collection("Hotstar").add({
     id: getUUID(),
-    title: "Avengers: Infinity War",
+    title: "Avengers-Infinity War",
     description:
       "The Avengers must stop Thanos, an intergalactic warlord, from getting his hands on all the infinity stones. However, Thanos is prepared to go to any lengths to carry out his insane plan.",
     genre: "action",
@@ -64,7 +64,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Hotstar").add({
     id: getUUID(),
-    title: "Avengers: Endgame",
+    title: "Avengers-Endgame",
     description:
       "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.",
     genre: "action",
@@ -72,7 +72,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Hotstar").add({
     id: getUUID(),
-    title: "Star Wars: A New Hope",
+    title: "Star Wars-A New Hope",
     description:
       "Princess Leia gets abducted by the insidious Darth Vader. Luke Skywalker then teams up with a Jedi Knight, a pilot and two droids to free her and to save the galaxy from the violent Galactic Empire.",
     genre: "action",
@@ -80,7 +80,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Hotstar").add({
     id: getUUID(),
-    title: "Star Wars: The Empire Strikes Back",
+    title: "Star Wars-The Empire Strikes Back",
     description:
       "Darth Vader is adamant about turning Luke Skywalker to the dark side. Master Yoda trains Luke to become a Jedi Knight while his friends try to fend off the Imperial fleet.",
     genre: "action",
@@ -172,7 +172,7 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("Hotstar").add({
     id: getUUID(),
-    title: "Independence Day : Resurgence",
+    title: "Independence Day-Resurgence",
     description:
       "Frank, a former inventor, and Casey, a curious teenager, embark on a dangerous mission to unravel the secrets of Tomorrowland, an unexplored dimension in time and space.",
     genre: "scifi",
