@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro';
+import styled from "styled-components/macro";
 
 export const Title = styled.p`
   font-size: 24px;
@@ -27,7 +27,8 @@ export const Container = styled.div`
 
 export const Group = styled.div`
   display: flex;
-  flex-direction: ${({ flexDirection }) => (flexDirection === 'row' ? 'row' : 'column')};
+  flex-direction: ${({ flexDirection }) =>
+    flexDirection === "row" ? "row" : "column"};
   ${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
   ${({ margin }) => margin && `margin: ${margin}`};
 
@@ -73,10 +74,9 @@ export const Meta = styled.div`
 
 export const Image = styled.img`
   border: 0;
-  width: 100%;
-  max-width: 305px;
+  height: 278px;
+  width: 210px;
   cursor: pointer;
-  height: auto;
   padding: 0;
   margin: 0;
 `;
@@ -121,7 +121,8 @@ export const Item = styled.div`
 export const FeatureText = styled.p`
   font-size: 18px;
   color: white;
-  font-weight: ${({ fontWeight }) => (fontWeight === 'bold' ? 'bold' : 'normal')};
+  font-weight: ${({ fontWeight }) =>
+    fontWeight === "bold" ? "bold" : "normal"};
   margin: 0;
 
   @media (max-width: 600px) {
@@ -186,7 +187,7 @@ export const Content = styled.div`
 `;
 
 export const Maturity = styled.div`
-  background-color: ${({ rating }) => (rating >= 15 ? '#f44336' : '#2f9600')};
+  background-color: ${({ rating }) => (rating >= 15 ? "#f44336" : "#2f9600")};
   border-radius: 15px;
   width: 28px;
   line-height: 28px;

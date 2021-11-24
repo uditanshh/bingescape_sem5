@@ -91,7 +91,7 @@ export function BrowseContainer({ slides }) {
             <Card.Entities>
               {slideItem.data.map((item) => (
                 <Card.Item key={item.docId} item={item}>
-                  <Card.Image src={`/images/${category}/${item.genre}/small.jpg`} />
+                  <Card.Image src={`/images/${category}/${item.genre}/${item.title}/small.jpg`} />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
                     <Card.Text>{item.description}</Card.Text>
